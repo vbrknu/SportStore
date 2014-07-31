@@ -1,0 +1,13 @@
+﻿@model Sportsstore.WebUI.Models.ProductsListViewModel
+
+@{
+    ViewBag.Title = "Discounts";
+}
+
+<h2>Discounts available</h2>
+
+@foreach (var p in Model.Products)
+{
+    Html.RenderPartial("ProductSummary", p);
+}
+

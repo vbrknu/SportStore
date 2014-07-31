@@ -1,0 +1,135 @@
+﻿body {
+    font-size: .85em;
+    font-family: "Segoe UI", Verdana, Helvetica, Sans-Serif;
+    color: #4B4934;
+    background-color: #EFEACC;
+}
+
+header, footer, nav, section {
+    display: block;
+}
+
+
+/* Styles for basic forms
+-----------------------------------------------------------*/
+fieldset {
+    border: 1px solid #ddd;
+    padding: 0 1.4em 1.4em 1.4em;
+    margin: 0 0 1.5em 0;
+}
+
+legend {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+textarea {
+    min-height: 75px;
+}
+
+.editor-label {
+    margin: 1em 0 0 0;
+}
+
+.editor-field {
+    margin: 0.5em 0 0 0;
+}
+
+
+/* Styles for validation helpers
+-----------------------------------------------------------*/
+.field-validation-error {
+    color: #f00;
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+.input-validation-error {
+    border: 1px solid #f00;
+    background-color: #fee;
+}
+
+.validation-summary-errors {
+    font-weight: bold;
+    color: #f00;
+}
+
+.validation-summary-valid {
+    display: none;
+}
+
+BODY { font-family: Cambria, Georgia, "Times New Roman"; margin: 0; } 
+DIV#header DIV.title, DIV.item H3, DIV.item H4, DIV.pager A { 
+font: bold 1em "Arial Narrow", "Franklin Gothic Medium", Arial; 
+} 
+DIV#header { background-color: #4E2008; border-bottom: 2px solid #111; color: White; } 
+DIV#header DIV.title { font-size: 2em; padding: .6em; color: #EFEACC } 
+DIV#content { margin-left: 9em; padding: 1em; }
+DIV#content H1 { margin-left: 20px; }
+
+DIV#categories { border-right: 2px solid gray; float: left; width: 8em; padding: .3em; } 
+
+DIV.item { border-top: 1px dotted gray; padding-top: .7em; margin-bottom: .7em; } 
+DIV.item:first-child { border-top:none; padding-top: 0; } 
+DIV.item H3 { font-size: 1.3em; margin: 0 0 .25em 0; } 
+DIV.item H4 { font-size: 1.1em; margin:.4em 0 0 0; }
+DIV.item INPUT { color:White; background-color: #A23607; border: 1px solid black; cursor:pointer; }
+DIV.home-item { display: inline; float: left; margin: 10px; margin-left: 20px;}
+
+DIV.pager { text-align:right; border-top: 2px solid silver; 
+padding: .5em 0 0 0; margin-top: 1em; } 
+DIV.pager A { font-size: 1.1em; color: #666; text-decoration: none; 
+padding: 0 .4em 0 .4em; } 
+DIV.pager A:hover { background-color: Silver; } 
+DIV.pager A.selected { background-color: #7A6A46; color: White; }
+
+DIV#categories A 
+{ 
+font: bold 1.1em "Arial Narrow","Franklin Gothic Medium",Arial; display: block; 
+text-decoration: none; padding: .6em; 
+color: #A23607;
+border-bottom: 1px solid silver; 
+} 
+DIV#categories A.selected { background-color: #7A6A46; color: White; } 
+DIV#categories A:hover { background-color: #CCC; } 
+DIV#categories A.selected:hover { background-color: #4B4934; }
+
+FORM { margin: 0; padding: 0; }
+DIV.item FORM { float:right; }
+DIV.item INPUT {
+    color:White; background-color: #A23607; border: 1px solid black; cursor:pointer; 
+}
+
+H2 { margin-top: 0.3em } 
+TFOOT TD { border-top: 1px dotted gray; font-weight: bold; } 
+.actionButtons A, INPUT.actionButtons { 
+font: .8em Arial; color: White; margin: .5em; 
+text-decoration: none; padding: .15em 1.5em .2em 1.5em; 
+background-color: #4B4934; border: 1px solid black; 
+}
+
+
+DIV#cart { float:right; margin: .8em; color: Silver; 
+background-color: #7A6A46; padding: .5em .5em .5em 1em; } 
+
+DIV#cart A { text-decoration: none; padding: .4em 1em .4em 1em; line-height:2.1em; 
+margin-left: .5em; background-color: #4B4934; color:White; border: 1px solid black;}
+
+DIV#footer { 
+   position:absolute;
+   bottom:0;
+   width:100%;
+   height:40px;   
+   background: #EFEACC;
+   color: #4E2008;
+   text-align: center;
+   padding-top: 15px;
+     
+}
+DIV#footer a { margin-right: 8px; text-decoration: none; }
+
+DIV#footer a:link { color:inherit;}
+DIV#footer a:visited { color:inherit;}
+DIV#fotter a:hover { color: inherit;}

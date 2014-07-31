@@ -1,0 +1,12 @@
+﻿@model Sportsstore.WebUI.Models.ProductsListViewModel
+
+@{
+    ViewBag.WelcomeText = "Here's some of the items you can find in here";
+}
+<h1>@ViewBag.WelcomeText</h1>
+@foreach (var p in Model.Products)
+{
+    Html.RenderPartial("HomeProducts", p);
+}
+
+
